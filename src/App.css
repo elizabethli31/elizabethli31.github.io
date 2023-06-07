@@ -1,3 +1,8 @@
+/* @font-face {
+  font-family: Darumadrop;
+  src: url('./fonts/Darumadrop_One/DarumadropOne-Regular.ttf');
+} */
+
 .App {
   text-align: center;
 }
@@ -6,6 +11,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+/* body {
+  font-family: Darumadrop;
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -21,6 +30,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  font-family: Darumadrop;
   color: white;
 }
 
